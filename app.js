@@ -13,7 +13,7 @@ var io = require('socket.io').listen(server);
 var cookie = cookieParser(SECRET);
 var store = new expressSession.MemoryStore();
 
-
+//teste para verificação do git
 
 
 app.set('views',__dirname + '/views');
