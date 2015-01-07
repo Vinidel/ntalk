@@ -1,0 +1,115 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json ntalk@0.0.1 No repository field.
+6 warn package.json ntalk@0.0.1 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ 'C:\\Users\\Vinicius\\Documents\\Projetos\\Node\\ntalk',
+8 verbose install   [ 'body-parser',
+8 verbose install     'cookie-parser',
+8 verbose install     'debug',
+8 verbose install     'ejs',
+8 verbose install     'express',
+8 verbose install     'express-load',
+8 verbose install     'express-session',
+8 verbose install     'method-override',
+8 verbose install     'socket.io' ] ]
+9 info preinstall ntalk@0.0.1
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping body-parser@>1.8.1 C:\Users\Vinicius\Documents\Projetos\Node\ntalk
+12 verbose cache add [ 'cookie-parser@>1.3.3', null ]
+13 verbose cache add name=undefined spec="cookie-parser@>1.3.3" args=["cookie-parser@>1.3.3",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'cookie-parser@%3E1.3.3',
+14 verbose parsed url   path: 'cookie-parser@%3E1.3.3',
+14 verbose parsed url   href: 'cookie-parser@%3E1.3.3' }
+15 verbose already installed skipping debug@^2.1.0 C:\Users\Vinicius\Documents\Projetos\Node\ntalk
+16 verbose already installed skipping ejs@>0.8.5 C:\Users\Vinicius\Documents\Projetos\Node\ntalk
+17 verbose already installed skipping express@>4.9.0 C:\Users\Vinicius\Documents\Projetos\Node\ntalk
+18 verbose already installed skipping express-load@^1.1.14 C:\Users\Vinicius\Documents\Projetos\Node\ntalk
+19 verbose already installed skipping express-session@^1.9.3 C:\Users\Vinicius\Documents\Projetos\Node\ntalk
+20 verbose already installed skipping method-override@^2.3.0 C:\Users\Vinicius\Documents\Projetos\Node\ntalk
+21 verbose already installed skipping socket.io@^1.2.1 C:\Users\Vinicius\Documents\Projetos\Node\ntalk
+22 verbose cache add name="cookie-parser" spec=">1.3.3" args=["cookie-parser",">1.3.3"]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: '%3E1.3.3',
+23 verbose parsed url   path: '%3E1.3.3',
+23 verbose parsed url   href: '%3E1.3.3' }
+24 verbose addNamed [ 'cookie-parser', '>1.3.3' ]
+25 verbose addNamed [ null, '>1.3.3' ]
+26 silly lockFile 764c8a6b-cookie-parser-1-3-3 cookie-parser@>1.3.3
+27 verbose lock cookie-parser@>1.3.3 C:\Users\Vinicius\AppData\Roaming\npm-cache\764c8a6b-cookie-parser-1-3-3.lock
+28 silly addNameRange { name: 'cookie-parser', range: '>1.3.3', hasData: false }
+29 verbose request where is /cookie-parser
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id 912064c8625dd44d
+32 verbose url raw /cookie-parser
+33 verbose url resolving [ 'https://registry.npmjs.org/', './cookie-parser' ]
+34 verbose url resolved https://registry.npmjs.org/cookie-parser
+35 verbose request where is https://registry.npmjs.org/cookie-parser
+36 info trying registry request attempt 1 at 17:35:24
+37 http GET https://registry.npmjs.org/cookie-parser
+38 http 200 https://registry.npmjs.org/cookie-parser
+39 silly registry.get cb [ 200,
+39 silly registry.get   { date: 'Tue, 06 Jan 2015 19:35:25 GMT',
+39 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+39 silly registry.get     etag: '"DDKJHDWHHJC6DWGLE2O7KQ8MK"',
+39 silly registry.get     'content-type': 'application/json',
+39 silly registry.get     'cache-control': 'max-age=60',
+39 silly registry.get     'content-length': '14236',
+39 silly registry.get     'accept-ranges': 'bytes',
+39 silly registry.get     via: '1.1 varnish',
+39 silly registry.get     age: '6',
+39 silly registry.get     'x-served-by': 'cache-atl6235-ATL',
+39 silly registry.get     'x-cache': 'HIT',
+39 silly registry.get     'x-cache-hits': '1',
+39 silly registry.get     'x-timer': 'S1420572925.702185,VS0,VE3',
+39 silly registry.get     vary: 'Accept',
+39 silly registry.get     'keep-alive': 'timeout=10, max=50',
+39 silly registry.get     connection: 'Keep-Alive' } ]
+40 silly addNameRange number 2 { name: 'cookie-parser', range: '>1.3.3', hasData: true }
+41 silly addNameRange versions [ 'cookie-parser',
+41 silly addNameRange   [ '1.0.0',
+41 silly addNameRange     '1.0.1',
+41 silly addNameRange     '1.1.0',
+41 silly addNameRange     '1.2.0',
+41 silly addNameRange     '1.3.0',
+41 silly addNameRange     '1.3.1',
+41 silly addNameRange     '1.3.2',
+41 silly addNameRange     '1.3.3' ] ]
+42 silly lockFile 764c8a6b-cookie-parser-1-3-3 cookie-parser@>1.3.3
+43 silly lockFile 764c8a6b-cookie-parser-1-3-3 cookie-parser@>1.3.3
+44 error notarget No compatible version found: cookie-parser@'>1.3.3'
+44 error notarget Valid install targets:
+44 error notarget ["1.0.0","1.0.1","1.1.0","1.2.0","1.3.0","1.3.1","1.3.2","1.3.3"]
+44 error notarget
+44 error notarget This is most likely not a problem with npm itself.
+44 error notarget In most cases you or one of your dependencies are requesting
+44 error notarget a package version that doesn't exist.
+45 error System Windows_NT 6.2.9200
+46 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+47 error cwd C:\Users\Vinicius\Documents\Projetos\Node\ntalk
+48 error node -v v0.10.35
+49 error npm -v 1.4.28
+50 error code ETARGET
+51 verbose exit [ 1, true ]
